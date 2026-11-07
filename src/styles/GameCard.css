@@ -1,0 +1,37 @@
+
+.game-card {
+  background: #19192b;
+  border: 1px solid #30304a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-7px);
+  border-color: #a855f7;
+}
+
+.game-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.game-info {
+  padding: 20px;
+  color: white;
+}
+
+.game-info p {
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.game-info button {
+  background: #9333ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}

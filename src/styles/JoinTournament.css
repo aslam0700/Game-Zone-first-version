@@ -1,0 +1,56 @@
+
+.join-page {
+  min-height: 100vh;
+  background: #10101f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.join-form {
+  width: 100%;
+  max-width: 430px;
+  background: #1b1b32;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+}
+
+.join-form h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.join-form label {
+  display: block;
+  margin: 15px 0 7px;
+}
+
+.join-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #444466;
+  border-radius: 7px;
+  background: #10101f;
+  color: white;
+}
+
+.join-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.join-form .back-button {
+  background: #343454;
+  margin-top: 10px;
+}
